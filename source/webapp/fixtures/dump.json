@@ -1,0 +1,65 @@
+[
+{
+  "model": "webapp.tasks",
+  "pk": 1,
+  "fields": {
+    "description": "\u041f\u041a",
+    "status": "new",
+    "created_at": "2019-12-19"
+  }
+},
+{
+  "model": "webapp.tasks",
+  "pk": 2,
+  "fields": {
+    "description": "Windiws 7",
+    "status": "in_progress",
+    "created_at": "2019-06-05"
+  }
+},
+{
+  "model": "webapp.tasks",
+  "pk": 3,
+  "fields": {
+    "description": "OC \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+    "status": "done",
+    "created_at": "2018-06-05"
+  }
+},
+{
+  "model": "webapp.tasks",
+  "pk": 4,
+  "fields": {
+    "description": "linux \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+    "status": "new",
+    "created_at": "2018-06-02"
+  }
+},
+{
+  "model": "webapp.tasks",
+  "pk": 5,
+  "fields": {
+    "description": "Windiws 10",
+    "status": "in_progress",
+    "created_at": "2019-06-05"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$8BbetjDDLwyL$CddAL8GSFn+Ly/qFgCxbWhg1oKfNu4QI1UrdNHOmRPk=",
+    "last_login": "2020-06-29T14:46:10.474Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-29T14:36:20.435Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

@@ -1,0 +1,29 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task view</title>
+    <style>
+     .container{
+        background-color:#D0FBEE;
+    }
+    .cent{
+        text-align: center;
+    }
+    </style>
+</head>
+<body class="container">
+
+<p><a href="/"><input type="submit" value="Return to index"></a></p>
+    <h1 class="cent">{{ tasks.description }}</h1>
+    <p>Статус: <b>{{ tasks.status }}</b></p>
+<p>Created by : <b>{{ tasks.created_at }}</b></p>
+
+
+
+</body>
+</html>
